@@ -1,0 +1,15 @@
+[package]
+name = "nu_plugin_wifiscan"
+version = "0.1.0"
+authors = ["potan <mpotanin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nu-plugin = "~0"
+nu-protocol = "~0"
+nu-source = "~0"
+nu-errors = "~0"
+indexmap = "~1"
+wifiscanner = "~0"
